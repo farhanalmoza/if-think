@@ -6,13 +6,7 @@ int main() {
     
     if (umur<=18)
     {
-        if (umur<=10)
-        {
-            cout << "Anak-anak" << endl;
-        } else
-        {
-            cout << "Remaja" << endl;
-        }
+        umur<=10 ? cout << "Anak-anak" << endl : cout << "Remaja" << endl;
     } else
     {
         cout << "Bukan usia anak maupun remaja" << endl;
