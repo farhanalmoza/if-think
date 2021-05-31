@@ -11,3 +11,10 @@ int main()
     printf(jurusan);
     return 0;
 }
+
+/**
+ * Output : Teknik Informatika
+ * Penjelasan : variabel jurusan nilainya diganti pada fungsi ganti().
+ * Namun, fungsi ganti() tidak mengembalikan nilai apapun. Sehingga
+ * nilai dari variabel jurusan yang dicetak tetap "Teknik Informatika".
+*/
